@@ -1,10 +1,10 @@
-# Import necessary libraries
+#libraries used
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy.stats import ttest_ind, f_oneway
 
-# Load the datasets
+
 review_scores_file = "datasets/sales_with_review_scores.csv"
 vgsales_file = "datasets/vgsales.csv"
 
