@@ -109,7 +109,7 @@ sns.barplot(data=total_sales, x='Genre', y='Total_Global_Sales', hue='Genre', pa
 plt.title('Total Global Sales: Action, Adventure, and Other Genres (H3)')
 plt.ylabel('Total Global Sales (Millions)')
 plt.xlabel('Genre Category')
-plt.legend([], [], frameon=False)  # Hide legend since it's redundant
+plt.legend([], [], frameon=False)
 plt.tight_layout()
 plt.show()
 
@@ -123,6 +123,6 @@ sns.boxplot(data=vgsales_data, x='Genre_Category', y='Global_Sales', hue='Genre_
 plt.title('Distribution of Global Sales: Action, Adventure, and Other Genres (H3)')
 plt.ylabel('Global Sales (Millions)')
 plt.xlabel('Genre Category')
-plt.legend([], [], frameon=False)  # Hide legend since it's redundant
+plt.legend([], [], frameon=False)
 plt.tight_layout()
 plt.show()
